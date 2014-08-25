@@ -1,5 +1,4 @@
 Subtitle Downloader
-Deepak Sharma
 ===================
 
 Python script to download english subtitles of any movie/tv series episode.
