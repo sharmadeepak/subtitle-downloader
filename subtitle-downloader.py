@@ -26,7 +26,7 @@ def sub_downloader(path):
         path = path.replace(content,"")
     if not os.path.exists(path+".srt"):
 
-        headers = { 'User-Agent' : 'SubDB/1.0 (subtitle-downloader/1.0; http://github.com/manojmj92/subtitle-downloader)' }
+        headers = { 'User-Agent' : 'SubDB/1.0 (subtitle-downloader/1.0; https://github.com/sharmadeepak/subtitle-downloader)' }
         url = "http://api.thesubdb.com/?action=download&hash="+hash+"&language=en"
         if pyVer == 3:
             req = urllib.request.Request(url, None, headers)
