@@ -1,13 +1,5 @@
 #-------------------------------------------------------------------------------
 # Name		: subtitle downloader
-# Purpose	:
-#
-# Authors	: manoj m j, arun shivaram p
-#Edited by     : Rahil Sharma
-# Created	:
-# Copyright	: (c) www.manojmj.com
-# Licence	: GPL v3
-#-------------------------------------------------------------------------------
 import os
 import hashlib
 import sys

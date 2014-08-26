@@ -1,13 +1,5 @@
-#-------------------------------------------------------------------------------
 # Name		: subtitle downloader folder
-# Purpose	: Download subtitle for any number of movies at once.
-# 
-# Authors	: manoj m j, arun shivaram p, Avinash Srivastava
-#Edited by     : Rahil Sharma
-# Created	:
-# Copyright	: (c) www.manojmj.com
-# Licence	: GPL v3
-#-------------------------------------------------------------------------------
+
 import os
 import hashlib
 import sys
@@ -60,7 +52,7 @@ def sub_downloader(fileName):
                 subtitle.write(response)
     except:
         #Ignore exception and continue
-        print "Error in fetching subtitle for " + fileName          
+        print       
             
     
 rootdir = sys.argv[1]
